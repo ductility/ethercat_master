@@ -16,7 +16,7 @@ $ sudo apt-get install autoconf
 $ sudo apt-get install automake
 ```
 
-## 3.	ethercat-1.5.2.tar 다운로드 하기
+## 3.	ethercat-1.5.2.tar.gz 다운로드 하기
 Etherlab 홈페이지에 올라와 있는 압축파일은 리눅스 커널 4.4.x 버전에는 맞지 않는 코드들이 있습니다. 맞지 않는 부분들을 수정하여 github에 올려놓았고 다음의 명령어로 다운로드 받으면 됩니다.   
 ```
 $ wget ~~~~수정하기
@@ -24,7 +24,7 @@ $ wget ~~~~수정하기
 
 ## 4.	압축을 풀고 /usr/local/src/로 디렉터리 이동시키기
 ```
-$ tar -xvf ethercat-1.5.2.tar
+$ tar -xvzf ethercat-1.5.2.tar.gz
 $ sudo mv ethercat-1.5.2 /usr/local/src/
 $ cd /usr/local/src/
 ```
